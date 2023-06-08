@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 350px;
+  > div {
+    width: 100%;
+    input {
+      background: #ffffff;
+      min-height: 30px;
+      border-radius: 20px;
+      padding: 0px 20px;
+      width: 100%;
+      &:focus-visible {
+        outline: blue auto 1px;
+      }
+    }
+    p {
+      color: #ffffff;
+      padding: 10px 20px;
+      text-align: left;
+      width: 100%;
+    }
+    fieldset {
+      border: 0px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      legend {
+        color: #ffffff;
+        padding: 0px 20px;
+      }
+      > div {
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        p {
+          padding: 0px 10px;
+        }
+      }
+    }
+  }
+  button {
+    min-width: 150px;
+    border-radius: 20px;
+    min-height: 30px;
+    margin-top: 50px;
+    :hover {
+      background: #dddddd;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mon_formu",
+  "version": "1.0.0",
+  "description": "mon premier formulaire",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "sass": "sass --watch ./sass/global.scss:./css/styles.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aremplir"
+  },
+  "author": "guillaume L",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.2"
+  }
+}
